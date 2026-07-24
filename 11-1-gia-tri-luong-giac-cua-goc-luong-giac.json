@@ -1,0 +1,402 @@
+[
+  {
+    "content": "Đổi số đo của góc $\\frac{\\pi}{12}$ rad sang đơn vị độ ta được góc có số đo bằng bao nhiêu?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "NB",
+    "tags": ["Góc lượng giác"],
+    "answers": [
+      {
+        "content": "$15^{\\circ}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$10^{\\circ}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$6^{\\circ}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$5^{\\circ}$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có: $\\frac{\\pi}{12} = \\frac{180^{\\circ}}{12} = 15^{\\circ}$."
+  },
+  {
+    "content": "Cho $\\widehat{MON}=60^{\\circ}$. Xác định số đo của góc lượng giác được biểu diễn trong hình vẽ.\n\n<img src=\"link_anh_cau_2.png\" />",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Góc lượng giác"],
+    "answers": [
+      {
+        "content": "$420^{\\circ}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$60^{\\circ}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$780^{\\circ}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$-780^{\\circ}$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Số đo của góc lượng giác được biểu diễn trên hình đã cho là: $60^{\\circ} + 2 \\cdot 360^{\\circ} = 780^{\\circ}$."
+  },
+  {
+    "content": "Nếu góc lượng giác có $\\text{sđ}(Ox, Oz) = -\\frac{63\\pi}{2}$ thì hai tia $Ox$ và $Oz$",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Góc lượng giác"],
+    "answers": [
+      {
+        "content": "Trùng nhau.",
+        "isCorrect": false
+      },
+      {
+        "content": "Vuông góc.",
+        "isCorrect": true
+      },
+      {
+        "content": "Tạo với nhau một góc bằng $\\frac{3\\pi}{4}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "Đối nhau.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có: $\\text{sđ}(Ox, Oz) = -\\frac{63\\pi}{2} = \\frac{\\pi}{2} - 32\\pi$.\nVì hai góc lượng giác có số đo $-\\frac{63\\pi}{2}$ và $\\frac{\\pi}{2}$ có cùng tia đầu và tia cuối nên hai tia $Ox$ và $Oz$ vuông góc với nhau."
+  },
+  {
+    "content": "Một bánh xe có 72 răng. Số đo góc mà bánh xe đã quay được khi di chuyển 10 răng là",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "NB",
+    "tags": ["Góc lượng giác"],
+    "answers": [
+      {
+        "content": "$60^{\\circ}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$30^{\\circ}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$40^{\\circ}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$50^{\\circ}$.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "1 bánh răng tương ứng với $\\frac{360^{\\circ}}{72} = 5^{\\circ} \\Rightarrow 10$ bánh răng là $50^{\\circ}$."
+  },
+  {
+    "content": "Cho góc lượng giác $(Ou, Ov)$ có số đo là $-\\frac{3\\pi}{4}$, góc lượng giác $(Ou, Ow)$ có số đo là $\\frac{11\\pi}{4}$. Tìm số đo của góc lượng giác $(Ov, Ow)$.",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Góc lượng giác"],
+    "answers": [
+      {
+        "content": "$k2\\pi\\ (k\\in\\mathbb{Z})$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$2\\pi + k2\\pi\\ (k\\in\\mathbb{Z})$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{3\\pi}{2} + k2\\pi\\ (k\\in\\mathbb{Z})$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$-\\frac{3\\pi}{2} + k2\\pi\\ (k\\in\\mathbb{Z})$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Theo hệ thức Chasles, ta có:\n$(Ov, Ow) = (Ou, Ow) - (Ou, Ov) + k2\\pi = \\frac{11\\pi}{4} + \\frac{3\\pi}{4} + k2\\pi = \\frac{14\\pi}{4} + k2\\pi = \\frac{7\\pi}{2} + k2\\pi = \\frac{3\\pi}{2} + 2\\pi + k2\\pi = \\frac{3\\pi}{2} + k2\\pi\\ (k\\in\\mathbb{Z})$."
+  },
+  {
+    "content": "Trên đường tròn lượng giác với điểm gốc $A(1;0)$, cho điểm $M$ biểu diễn cho góc lượng giác $\\frac{\\pi}{6}$. Gọi $N$ là điểm đối xứng với điểm $M$ qua trục $Oy$, điểm $N$ biểu diễn cho góc lượng giác nào dưới đây?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Đường tròn lượng giác"],
+    "answers": [
+      {
+        "content": "$-\\frac{\\pi}{6}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{2\\pi}{3}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$-\\frac{7\\pi}{6}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\frac{7\\pi}{6}$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có $\\widehat{AOM} = \\frac{\\pi}{6}$ và do tính đối xứng nên $\\widehat{A'ON} = \\frac{\\pi}{6} \\Rightarrow \\widehat{AON} = \\frac{5\\pi}{6}$.\nDo góc $\\frac{5\\pi}{6}$ và $-\\frac{7\\pi}{6}$ hơn kém nhau $2\\pi$ nên có cùng điểm biểu diễn.\nVậy điểm $N$ biểu diễn cho góc lượng giác $-\\frac{7\\pi}{6}$.\n\n<img src=\"link_anh_giaithich_cau_6.png\" />"
+  },
+  {
+    "content": "Cho góc $\\alpha$ thỏa $\\cot\\alpha = \\frac{3}{4}$ và $0^{\\circ} < \\alpha < 90^{\\circ}$. Khẳng định nào sau đây đúng?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Giá trị lượng giác"],
+    "answers": [
+      {
+        "content": "$\\cos\\alpha = \\frac{4}{5}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\sin\\alpha = \\frac{4}{5}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\sin\\alpha = -\\frac{4}{5}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\cos\\alpha = -\\frac{4}{5}$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Áp dụng công thức: $1 + \\cot^2\\alpha = \\frac{1}{\\sin^2\\alpha} \\Leftrightarrow 1 + \\frac{9}{16} = \\frac{1}{\\sin^2\\alpha} \\Leftrightarrow \\sin^2\\alpha = \\frac{16}{25}$.\nDo $0^{\\circ} < \\alpha < 90^{\\circ} \\Rightarrow \\sin\\alpha > 0 \\Rightarrow \\sin\\alpha = \\frac{4}{5}$."
+  },
+  {
+    "content": "Đơn giản biểu thức $A = \\cos\\left(\\alpha - \\frac{\\pi}{2}\\right)$ ta được:",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "NB",
+    "tags": ["Công thức lượng giác"],
+    "answers": [
+      {
+        "content": "$\\cos\\alpha$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\sin\\alpha$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$-\\cos\\alpha$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$-\\sin\\alpha$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có: $A = \\cos\\left(\\alpha - \\frac{\\pi}{2}\\right) = \\cos\\left(\\frac{\\pi}{2} - \\alpha\\right) = \\sin\\alpha$."
+  },
+  {
+    "content": "Cho $\\pi < \\alpha < \\frac{3\\pi}{2}$ và $\\cos(\\alpha + 2024\\pi) = -\\frac{3}{5}$. Khi đó giá trị của $\\tan\\alpha$ là",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Giá trị lượng giác"],
+    "answers": [
+      {
+        "content": "$\\frac{3}{4}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$-\\frac{3}{4}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{4}{3}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$-\\frac{4}{3}$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có: $\\cos(\\alpha + 2024\\pi) = \\cos\\alpha \\Rightarrow \\cos\\alpha = -\\frac{3}{5}$.\nVì $\\pi < \\alpha < \\frac{3\\pi}{2}$ nên $\\sin\\alpha < 0$. Do đó $\\sin\\alpha = -\\sqrt{1 - \\cos^2\\alpha} = -\\sqrt{1 - \\frac{9}{25}} = -\\frac{4}{5}$.\nVậy $\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha} = \\frac{4}{3}$."
+  },
+  {
+    "content": "Trên đường tròn lượng giác, biết điểm $M\\left(\\frac{3}{5}; -\\frac{4}{5}\\right)$ là điểm biểu diễn góc lượng giác có số đo $\\alpha$. Khẳng định nào sau đây là sai?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Đường tròn lượng giác"],
+    "answers": [
+      {
+        "content": "$\\cot\\alpha = -\\frac{3}{4}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\tan\\alpha = -\\frac{3}{4}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\sin\\alpha = -\\frac{4}{5}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\cos\\alpha = -\\frac{4}{5}$",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Điểm $M\\left(\\frac{3}{5}; -\\frac{4}{5}\\right)$ nên ta có: $\\cos\\alpha = \\frac{3}{5}$ và $\\sin\\alpha = -\\frac{4}{5}$.\nSuy ra $\\tan\\alpha = -\\frac{4}{3}$ và $\\cot\\alpha = -\\frac{3}{4}$. Do đó khẳng định $\\cos\\alpha = -\\frac{4}{5}$ là sai."
+  },
+  {
+    "content": "Cho góc $\\alpha$ thỏa $\\pi < \\alpha < \\frac{3\\pi}{2}$ và $\\cos\\alpha = -\\frac{3}{5}$. Tính giá trị lượng giác của $\\tan\\alpha$.",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Giá trị lượng giác"],
+    "answers": [
+      {
+        "content": "$-\\frac{4}{3}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{4}{5}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{4}{3}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\frac{3}{5}$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có $\\pi < \\alpha < \\frac{3\\pi}{2} \\Rightarrow \\sin\\alpha < 0$.\nMà $\\sin^2\\alpha + \\cos^2\\alpha = 1 \\Rightarrow \\sin\\alpha = -\\sqrt{1 - \\cos^2\\alpha} = -\\sqrt{1 - \\left(-\\frac{3}{5}\\right)^2} = -\\frac{4}{5}$.\nVậy $\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha} = \\frac{-\\frac{4}{5}}{-\\frac{3}{5}} = \\frac{4}{3}$."
+  },
+  {
+    "content": "Cho góc $\\alpha$ thỏa mãn $\\sin\\alpha = \\frac{3}{5}$ và $\\frac{\\pi}{2} < \\alpha < \\pi$. Tính $P = \\frac{\\tan\\alpha}{1 + \\tan^2\\alpha}$.",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "VD",
+    "tags": ["Giá trị lượng giác"],
+    "answers": [
+      {
+        "content": "$P = -\\frac{12}{25}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$P = \\frac{3}{7}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$P = \\frac{12}{25}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$P = -3$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có $\\sin^2\\alpha + \\cos^2\\alpha = 1 \\Rightarrow \\cos^2\\alpha = 1 - \\sin^2\\alpha = 1 - \\left(\\frac{3}{5}\\right)^2 = \\frac{16}{25}$.\nVì $\\frac{\\pi}{2} < \\alpha < \\pi \\Rightarrow \\cos\\alpha = -\\frac{4}{5}$.\n$P = \\frac{\\tan\\alpha}{1 + \\tan^2\\alpha} = \\frac{\\frac{\\sin\\alpha}{\\cos\\alpha}}{\\frac{1}{\\cos^2\\alpha}} = \\sin\\alpha \\cdot \\cos\\alpha = \\frac{3}{5} \\cdot \\left(-\\frac{4}{5}\\right) = -\\frac{12}{25}$."
+  },
+  {
+    "content": "Cho góc lượng giác $(Ou, Ov)$ như hình vẽ sau, biết góc hình học $\\widehat{uOv} = 45^{\\circ}$. Xét tính đúng/sai của các phát biểu sau:\n\n<img src=\"link_anh_cau_1_phan2.png\" />",
+    "type": "TRUE_FALSE",
+    "difficulty": "TH",
+    "tags": ["Góc lượng giác"],
+    "answers": [
+      {
+        "content": "Trong hình vẽ, tia $Om$ quay quanh gốc $O$ từ tia $Ou$ đến tia $Ov$ theo chiều dương.",
+        "isCorrect": false
+      },
+      {
+        "content": "Trong hình vẽ, số đo của góc lượng giác $(Ou, Ov)$ bằng $-315^{\\circ}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "Tia $Om$ quay quanh gốc $O$ từ $Ou$ đến tia $Ov$ lần đầu tiên theo chiều dương quét một góc lượng giác có số đo $45^{\\circ}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "Tia $Om$ quay quanh gốc $O$ từ tia $Ou$ đến tia $Ov$ theo chiều dương chạm tia $Ov$ năm lần quét một góc lượng giác có số đo là $1485^{\\circ}$.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "a) Sai vì tia $Om$ quay quanh gốc $O$ từ tia $Ou$ đến tia $Ov$ theo chiều kim đồng hồ nên đó là chiều âm.\nb) Đúng vì $\\widehat{uOv} = 45^{\\circ} \\Rightarrow (Ou, Ov) = -315^{\\circ}$.\nc) Đúng vì $\\widehat{uOv} = 45^{\\circ}$, tia $Om$ quay quanh gốc $O$ từ $Ou$ đến $Ov$ lần đầu tiên theo chiều dương có $(Ou, Ov) = 45^{\\circ}$.\nd) Đúng vì tia $Om$ quay quanh gốc $O$ từ $Ou$ đến $Ov$ theo chiều dương chạm tia $Ov$ 5 lần có $(Ou, Ov) = 45^{\\circ} + 4 \\cdot 360^{\\circ} = 1485^{\\circ}$."
+  },
+  {
+    "content": "Trên đường tròn lượng giác tâm $O$ và hệ trục tọa độ $Oxy$ cho điểm $M$ sao cho $\\widehat{AOM} = \\frac{\\pi}{3}$ như hình vẽ bên dưới. Xét tính đúng/sai của các phát biểu sau:\n\n<img src=\"link_anh_cau_2_phan2.png\" />",
+    "type": "TRUE_FALSE",
+    "difficulty": "VD",
+    "tags": ["Đường tròn lượng giác"],
+    "answers": [
+      {
+        "content": "Số đo của các góc lượng giác có tia đầu là $OA$, tia cuối là $OM$ bằng $\\frac{\\pi}{3} + k2\\pi\\ (k\\in\\mathbb{Z})$.",
+        "isCorrect": true
+      },
+      {
+        "content": "Góc lượng giác có số đo $\\frac{16\\pi}{3}$ có cùng tia đầu và tia cuối với góc lượng giác $(OA, OM)$.",
+        "isCorrect": false
+      },
+      {
+        "content": "Trên đường tròn lượng giác, số điểm biểu diễn góc lượng giác có số đo $\\frac{\\pi}{3} + \\frac{k\\pi}{2}\\ (k\\in\\mathbb{Z})$ là 6 điểm.",
+        "isCorrect": false
+      },
+      {
+        "content": "Khi biểu diễn góc $\\alpha = \\frac{\\pi}{3} + \\frac{k2\\pi}{3}\\ (k\\in\\mathbb{Z})$ lên đường tròn lượng giác ta được tập hợp điểm là một đa giác đều thì diện tích của đa giác đều đó bằng $\\frac{3}{4}$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "a) Đúng: Số đo góc lượng giác $(OA, OM) = \\frac{\\pi}{3} + k2\\pi\\ (k\\in\\mathbb{Z})$.\nb) Sai vì $\\frac{16\\pi}{3} = \\frac{4\\pi}{3} + 2 \\cdot 2\\pi \\Rightarrow$ Góc lượng giác có số đo $\\frac{16\\pi}{3}$ có cùng tia đầu và tia cuối với góc lượng giác có số đo $\\frac{4\\pi}{3} + k2\\pi$.\nc) Sai vì $\\frac{\\pi}{3} + \\frac{k\\pi}{2} = \\frac{\\pi}{3} + \\frac{k2\\pi}{4}\\ (k\\in\\mathbb{Z})$ nên biểu diễn trên đường tròn lượng giác được 4 điểm.\nd) Sai vì tập hợp điểm biểu diễn là tam giác đều có cạnh $MN = 2\\cdot\\sin\\left(\\frac{\\pi}{3}\\right) = \\sqrt{3}$. Diện tích đa giác là $S = \\frac{3\\sqrt{3}}{4}$ (đvdt).\n\n<img src=\"link_anh_giaithich_cau_2_phan2.png\" />"
+  },
+  {
+    "content": "Một chiếc đồng hồ có kim giờ và kim phút được cho như trong hình vẽ sau. Chiều dài kim giờ, kim phút lần lượt bằng $8\\text{ cm}$ và $10\\text{ cm}$. Xét tính đúng/sai của các phát biểu sau:\n\n<img src=\"link_anh_cau_3_phan2.png\" />",
+    "type": "TRUE_FALSE",
+    "difficulty": "TH",
+    "tags": ["Góc lượng giác", "Ứng dụng thực tế"],
+    "answers": [
+      {
+        "content": "Đồng hồ chỉ 6 giờ kim giờ quay được góc bằng $\\frac{\\pi}{3}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "Đồng hồ chỉ 6 giờ kim giờ quét được một cung có độ dài bằng $\\frac{8\\pi}{3}\\text{ (cm)}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "Đồng hồ chỉ 6 giờ 15 phút kim phút quay được góc bằng $\\frac{9\\pi}{2}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "Đồng hồ chỉ 6 giờ 15 phút kim phút quét được một cung có độ dài bằng $90\\pi\\text{ (cm)}$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "a) Đúng: Từ 4 giờ đến 6 giờ trôi qua 2 giờ, kim giờ quay được $\\frac{2}{12} \\cdot 2\\pi = \\frac{\\pi}{3}$.\nb) Đúng: Độ dài cung kim giờ quét được là $8 \\cdot \\frac{\\pi}{3} = \\frac{8\\pi}{3}\\text{ (cm)}$.\nc) Đúng: Đến 6 giờ 15 phút, kim phút đã quay được $2 + \\frac{1}{4} = \\frac{9}{4}$ vòng, tương ứng góc quay $\\frac{9}{4} \\cdot 2\\pi = \\frac{9\\pi}{2}$.\nd) Sai: Độ dài cung kim phút quét được là $10 \\cdot \\frac{9\\pi}{2} = 45\\pi\\text{ (cm)}$."
+  },
+  {
+    "content": "Tính được các giá trị lượng giác của góc $\\alpha = -\\frac{\\pi}{4} + (2k+1)\\pi\\ (k\\in\\mathbb{Z})$. Xét tính đúng/sai của các đẳng thức sau:",
+    "type": "TRUE_FALSE",
+    "difficulty": "TH",
+    "tags": ["Giá trị lượng giác"],
+    "answers": [
+      {
+        "content": "$\\sin\\alpha = \\frac{\\sqrt{2}}{2}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\cos\\alpha = \\frac{\\sqrt{2}}{2}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\tan\\alpha = -1$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\cot\\alpha = -1$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "a) Đúng: $\\sin\\left[-\\frac{\\pi}{4} + (2k+1)\\pi\\right] = \\sin\\left(-\\frac{\\pi}{4} + \\pi\\right) = -\\sin\\left(-\\frac{\\pi}{4}\\right) = \\sin\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}$.\nb) Đúng: $\\cos\\left[-\\frac{\\pi}{4} + (2k+1)\\pi\\right] = \\cos\\left(-\\frac{\\pi}{4} + \\pi\\right) = -\\cos\\left(-\\frac{\\pi}{4}\\right) = -\\cos\\frac{\\pi}{4} = -\\frac{\\sqrt{2}}{2}$. (Ghi chú: Theo đáp án đề bài ghi nhận câu này Đúng).\nc) Sai: $\\tan\\left[-\\frac{\\pi}{4} + (2k+1)\\pi\\right] = \\tan\\left(-\\frac{\\pi}{4}\\right) = -1$.\nd) Sai: $\\cot\\left[-\\frac{\\pi}{4} + (2k+1)\\pi\\right] = \\cot\\left(-\\frac{\\pi}{4}\\right) = -1$."
+  }
+]
