@@ -25,7 +25,7 @@
     "explanation": "Ta có: $\\frac{\\pi}{12} = \\frac{180^{\\circ}}{12} = 15^{\\circ}$."
   },
   {
-    "content": "Cho $\\widehat{MON}=60^{\\circ}$. Xác định số đo của góc lượng giác được biểu diễn trong hình vẽ.\n\n<img src=\"link_anh_cau_2.png\" />",
+    "content": "Cho $\\widehat{MON}=60^{\\circ}$. Xác định số đo của góc lượng giác được biểu diễn trong hình vẽ.\n\n<img src=\"11-1-2.png\" />",
     "type": "MULTIPLE_CHOICE",
     "difficulty": "TH",
     "tags": ["Góc lượng giác"],
@@ -147,7 +147,7 @@
         "isCorrect": false
       }
     ],
-    "explanation": "Ta có $\\widehat{AOM} = \\frac{\\pi}{6}$ và do tính đối xứng nên $\\widehat{A'ON} = \\frac{\\pi}{6} \\Rightarrow \\widehat{AON} = \\frac{5\\pi}{6}$.\nDo góc $\\frac{5\\pi}{6}$ và $-\\frac{7\\pi}{6}$ hơn kém nhau $2\\pi$ nên có cùng điểm biểu diễn.\nVậy điểm $N$ biểu diễn cho góc lượng giác $-\\frac{7\\pi}{6}$.\n\n<img src=\"link_anh_giaithich_cau_6.png\" />"
+    "explanation": "Ta có $\\widehat{AOM} = \\frac{\\pi}{6}$ và do tính đối xứng nên $\\widehat{A'ON} = \\frac{\\pi}{6} \\Rightarrow \\widehat{AON} = \\frac{5\\pi}{6}$.\nDo góc $\\frac{5\\pi}{6}$ và $-\\frac{7\\pi}{6}$ hơn kém nhau $2\\pi$ nên có cùng điểm biểu diễn.\nVậy điểm $N$ biểu diễn cho góc lượng giác $-\\frac{7\\pi}{6}$.\n\n<img src=\"11-1-6-1.png\" />"
   },
   {
     "content": "Cho góc $\\alpha$ thỏa $\\cot\\alpha = \\frac{3}{4}$ và $0^{\\circ} < \\alpha < 90^{\\circ}$. Khẳng định nào sau đây đúng?",
@@ -300,7 +300,7 @@
     "explanation": "Ta có $\\sin^2\\alpha + \\cos^2\\alpha = 1 \\Rightarrow \\cos^2\\alpha = 1 - \\sin^2\\alpha = 1 - \\left(\\frac{3}{5}\\right)^2 = \\frac{16}{25}$.\nVì $\\frac{\\pi}{2} < \\alpha < \\pi \\Rightarrow \\cos\\alpha = -\\frac{4}{5}$.\n$P = \\frac{\\tan\\alpha}{1 + \\tan^2\\alpha} = \\frac{\\frac{\\sin\\alpha}{\\cos\\alpha}}{\\frac{1}{\\cos^2\\alpha}} = \\sin\\alpha \\cdot \\cos\\alpha = \\frac{3}{5} \\cdot \\left(-\\frac{4}{5}\\right) = -\\frac{12}{25}$."
   },
   {
-    "content": "Cho góc lượng giác $(Ou, Ov)$ như hình vẽ sau, biết góc hình học $\\widehat{uOv} = 45^{\\circ}$. Xét tính đúng/sai của các phát biểu sau:\n\n<img src=\"link_anh_cau_1_phan2.png\" />",
+    "content": "Cho góc lượng giác $(Ou, Ov)$ như hình vẽ sau, biết góc hình học $\\widehat{uOv} = 45^{\\circ}$. Xét tính đúng/sai của các phát biểu sau:\n\n<img src=\"11-1-13.png\" />",
     "type": "TRUE_FALSE",
     "difficulty": "TH",
     "tags": ["Góc lượng giác"],
@@ -325,7 +325,7 @@
     "explanation": "a) Sai vì tia $Om$ quay quanh gốc $O$ từ tia $Ou$ đến tia $Ov$ theo chiều kim đồng hồ nên đó là chiều âm.\nb) Đúng vì $\\widehat{uOv} = 45^{\\circ} \\Rightarrow (Ou, Ov) = -315^{\\circ}$.\nc) Đúng vì $\\widehat{uOv} = 45^{\\circ}$, tia $Om$ quay quanh gốc $O$ từ $Ou$ đến $Ov$ lần đầu tiên theo chiều dương có $(Ou, Ov) = 45^{\\circ}$.\nd) Đúng vì tia $Om$ quay quanh gốc $O$ từ $Ou$ đến $Ov$ theo chiều dương chạm tia $Ov$ 5 lần có $(Ou, Ov) = 45^{\\circ} + 4 \\cdot 360^{\\circ} = 1485^{\\circ}$."
   },
   {
-    "content": "Trên đường tròn lượng giác tâm $O$ và hệ trục tọa độ $Oxy$ cho điểm $M$ sao cho $\\widehat{AOM} = \\frac{\\pi}{3}$ như hình vẽ bên dưới. Xét tính đúng/sai của các phát biểu sau:\n\n<img src=\"link_anh_cau_2_phan2.png\" />",
+    "content": "Trên đường tròn lượng giác tâm $O$ và hệ trục tọa độ $Oxy$ cho điểm $M$ sao cho $\\widehat{AOM} = \\frac{\\pi}{3}$ như hình vẽ bên dưới. Xét tính đúng/sai của các phát biểu sau:\n\n<img src=\"11-1-14.png\" />",
     "type": "TRUE_FALSE",
     "difficulty": "VD",
     "tags": ["Đường tròn lượng giác"],
@@ -347,10 +347,10 @@
         "isCorrect": false
       }
     ],
-    "explanation": "a) Đúng: Số đo góc lượng giác $(OA, OM) = \\frac{\\pi}{3} + k2\\pi\\ (k\\in\\mathbb{Z})$.\nb) Sai vì $\\frac{16\\pi}{3} = \\frac{4\\pi}{3} + 2 \\cdot 2\\pi \\Rightarrow$ Góc lượng giác có số đo $\\frac{16\\pi}{3}$ có cùng tia đầu và tia cuối với góc lượng giác có số đo $\\frac{4\\pi}{3} + k2\\pi$.\nc) Sai vì $\\frac{\\pi}{3} + \\frac{k\\pi}{2} = \\frac{\\pi}{3} + \\frac{k2\\pi}{4}\\ (k\\in\\mathbb{Z})$ nên biểu diễn trên đường tròn lượng giác được 4 điểm.\nd) Sai vì tập hợp điểm biểu diễn là tam giác đều có cạnh $MN = 2\\cdot\\sin\\left(\\frac{\\pi}{3}\\right) = \\sqrt{3}$. Diện tích đa giác là $S = \\frac{3\\sqrt{3}}{4}$ (đvdt).\n\n<img src=\"link_anh_giaithich_cau_2_phan2.png\" />"
+    "explanation": "a) Đúng: Số đo góc lượng giác $(OA, OM) = \\frac{\\pi}{3} + k2\\pi\\ (k\\in\\mathbb{Z})$.\nb) Sai vì $\\frac{16\\pi}{3} = \\frac{4\\pi}{3} + 2 \\cdot 2\\pi \\Rightarrow$ Góc lượng giác có số đo $\\frac{16\\pi}{3}$ có cùng tia đầu và tia cuối với góc lượng giác có số đo $\\frac{4\\pi}{3} + k2\\pi$.\nc) Sai vì $\\frac{\\pi}{3} + \\frac{k\\pi}{2} = \\frac{\\pi}{3} + \\frac{k2\\pi}{4}\\ (k\\in\\mathbb{Z})$ nên biểu diễn trên đường tròn lượng giác được 4 điểm.\nd) Sai vì tập hợp điểm biểu diễn là tam giác đều có cạnh $MN = 2\\cdot\\sin\\left(\\frac{\\pi}{3}\\right) = \\sqrt{3}$. Diện tích đa giác là $S = \\frac{3\\sqrt{3}}{4}$ (đvdt).\n\n<img src=\"11-1-14-2.png\" />"
   },
   {
-    "content": "Một chiếc đồng hồ có kim giờ và kim phút được cho như trong hình vẽ sau. Chiều dài kim giờ, kim phút lần lượt bằng $8\\text{ cm}$ và $10\\text{ cm}$. Xét tính đúng/sai của các phát biểu sau:\n\n<img src=\"link_anh_cau_3_phan2.png\" />",
+    "content": "Một chiếc đồng hồ có kim giờ và kim phút được cho như trong hình vẽ sau. Chiều dài kim giờ, kim phút lần lượt bằng $8\\text{ cm}$ và $10\\text{ cm}$. Xét tính đúng/sai của các phát biểu sau:\n\n<img src=\"11-1-16.png\" />",
     "type": "TRUE_FALSE",
     "difficulty": "TH",
     "tags": ["Góc lượng giác", "Ứng dụng thực tế"],
