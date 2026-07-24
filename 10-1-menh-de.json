@@ -1,0 +1,402 @@
+[
+  {
+    "content": "Phát biểu nào dưới đây là mệnh đề?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "NB",
+    "tags": ["Mệnh đề"],
+    "answers": [
+      {
+        "content": "$2+3=9$.",
+        "isCorrect": true
+      },
+      {
+        "content": "Phong cảnh đẹp quá!",
+        "isCorrect": false
+      },
+      {
+        "content": "$5-x=7$.",
+        "isCorrect": false
+      },
+      {
+        "content": "Bây giờ là mấy giờ?",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "\"$2+3=9$\" là một khẳng định sai nên là một mệnh đề. Các đáp án còn lại gồm câu cảm thán, câu hỏi và mệnh đề chứa biến."
+  },
+  {
+    "content": "Các câu sau đây, câu nào không là mệnh đề?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "NB",
+    "tags": ["Mệnh đề"],
+    "answers": [
+      {
+        "content": "Phương trình $x^{2}-x+1=0$ vô nghiệm.",
+        "isCorrect": false
+      },
+      {
+        "content": "$x+y>1$.",
+        "isCorrect": true
+      },
+      {
+        "content": "12 không là số nguyên tố.",
+        "isCorrect": false
+      },
+      {
+        "content": "Hai phương trình $x^{2}-4x+3=0$ và $2x^{2}-\\sqrt{x+3}=0$ có nghiệm chung.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "\"$x+y>1$\" chứa hai biến $x, y$ nên là mệnh đề chứa biến, không phải là mệnh đề."
+  },
+  {
+    "content": "Trong các câu sau, câu nào là mệnh đề đúng?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề kéo theo"],
+    "answers": [
+      {
+        "content": "Nếu $a\\ge b$ thì $a^{2}\\ge b^{2}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "Nếu $a$ chia hết cho 9 thì $a$ chia hết cho 3.",
+        "isCorrect": true
+      },
+      {
+        "content": "Nếu bạn tự tin thì bạn thành công.",
+        "isCorrect": false
+      },
+      {
+        "content": "Nếu một tam giác có một góc bằng $60^{\\circ}$ thì tam giác đó đều.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nếu $a$ chia hết cho $9$ thì $a = 9k = 3(3k)$ với $k \\in \\mathbb{Z}$, do đó $a$ chia hết cho $3$. Đây là mệnh đề đúng."
+  },
+  {
+    "content": "Trong các mệnh đề, mệnh đề nào sai?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề chứa ký hiệu với mọi, tồn tại"],
+    "answers": [
+      {
+        "content": "$\\exists x\\in\\mathbb{R}, x^{2}-3x+2=0.$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\forall x\\in\\mathbb{R}, x^{2}+1>0.$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\exists x\\in\\mathbb{R}, x^{2}<0$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\forall x\\in\\mathbb{R}, |x+1|\\ge0$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Với mọi $x \\in \\mathbb{R}$ thì $x^2 \\ge 0$, do đó không tồn tại $x \\in \\mathbb{R}$ sao cho $x^2 < 0$. Vì vậy mệnh đề $\\exists x\\in\\mathbb{R}, x^{2}<0$ là sai."
+  },
+  {
+    "content": "Cho mệnh đề $P(x): \"\\forall x\\in\\mathbb{R}, x^{2}+x+1>0\"$. Mệnh đề phủ định của mệnh đề $P(x)$ là:",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề phủ định"],
+    "answers": [
+      {
+        "content": "\"$\\forall x\\in\\mathbb{R}, x^{2}+x+1<0$\".",
+        "isCorrect": false
+      },
+      {
+        "content": "\"$\\forall x\\in\\mathbb{R}, x^{2}+x+1\\le0$\".",
+        "isCorrect": false
+      },
+      {
+        "content": "\"$\\exists x\\in\\mathbb{R}, x^{2}+x+1\\le0$\".",
+        "isCorrect": true
+      },
+      {
+        "content": "\"$\\exists x\\in\\mathbb{R}, x^{2}+x+1>0$\".",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Phủ định của mệnh đề dạng \"$\\forall x \\in M, P(x)$\" là \"$\\exists x \\in M, \\overline{P(x)}$\". Phủ định của $x^2+x+1 > 0$ là $x^2+x+1 \\le 0$."
+  },
+  {
+    "content": "Cho mệnh đề $P: \"\\exists x\\in\\mathbb{R}, x < \\frac{1}{x}\"$. Xác định mệnh đề phủ định của mệnh đề $P$.",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề phủ định"],
+    "answers": [
+      {
+        "content": "$\\overline{P}: \"\\exists x\\in\\mathbb{R}, x\\ge\\frac{1}{x}\"$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\overline{P}: \"\\forall x\\in\\mathbb{R}, x>\\frac{1}{x}\"$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\overline{P}: \"\\forall x\\in\\mathbb{R}, x\\ge\\frac{1}{x}\"$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\overline{P}: \"\\exists x\\in\\mathbb{R}, x>\\frac{1}{x}\"$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Phủ định của mệnh đề dạng \"$\\exists x \\in M, P(x)$\" là \"$\\forall x \\in M, \\overline{P(x)}$\". Phủ định của $x < \\frac{1}{x}$ là $x \\ge \\frac{1}{x}$."
+  },
+  {
+    "content": "Xét mệnh đề chứa biến $P(x): \"x\\in \\mathbb{R}, x^{2}-2x\\ge0\"$. Tìm một giá trị của biến $x$ để được một mệnh đề đúng.",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề chứa biến"],
+    "answers": [
+      {
+        "content": "$x=\\frac{1}{4}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$x=3$",
+        "isCorrect": true
+      },
+      {
+        "content": "$x=1$",
+        "isCorrect": false
+      },
+      {
+        "content": "$x=0.5$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thay $x = 3$ vào $P(x)$, ta có $3^2 - 2(3) = 9 - 6 = 3 \\ge 0$ (đúng)."
+  },
+  {
+    "content": "Mệnh đề nào sau đây sai?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "VD",
+    "tags": ["Mệnh đề"],
+    "answers": [
+      {
+        "content": "$\\forall x\\in\\mathbb{R}, 3x^{2}-4x+4>0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\exists x\\in\\mathbb{R}, (x-1)^{2}+(x+1)^{2}=0.$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\exists x\\in\\mathbb{Q}, x<\\frac{1}{x}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\exists x\\in\\mathbb{N}, (1+2+3+...+n) \\vdots 11$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có $(x-1)^2 + (x+1)^2 = 2x^2 + 2 \\ge 2 > 0$ với mọi $x \\in \\mathbb{R}$, nên không tồn tại $x$ để tổng hai bình phương này bằng $0$."
+  },
+  {
+    "content": "Cho mệnh đề chứa biến $P(n)$: \"$n^{2}-1$ chia hết cho 4 với $n$ là số nguyên\". Khẳng định nào dưới đây đúng?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề chứa biến"],
+    "answers": [
+      {
+        "content": "$P(5)$ đúng và $P(2)$ đúng.",
+        "isCorrect": false
+      },
+      {
+        "content": "$P(5)$ sai và $P(2)$ sai.",
+        "isCorrect": false
+      },
+      {
+        "content": "$P(5)$ đúng và $P(2)$ sai.",
+        "isCorrect": true
+      },
+      {
+        "content": "$P(5)$ sai và $P(2)$ đúng.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Với $n=5$: $5^2 - 1 = 24$ chia hết cho 4 $\\Rightarrow P(5)$ đúng. Với $n=2$: $2^2 - 1 = 3$ không chia hết cho 4 $\\Rightarrow P(2)$ sai."
+  },
+  {
+    "content": "Mệnh đề phủ định của mệnh đề $P: \"\\exists x\\in\\mathbb{N}: x^{2}+2x+5 \\text{ là số nguyên tố}\"$ là",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề phủ định"],
+    "answers": [
+      {
+        "content": "$\\forall x\\in\\mathbb{N}: x^{2}+2x+5 \\text{ không là số nguyên tố}$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\exists x\\in\\mathbb{N}: x^{2}+2x+5 \\text{ là hợp số}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\forall x\\in\\mathbb{N}: x^{2}+2x+5 \\text{ không phải là hợp số}$.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\exists x\\in\\mathbb{N}: x^{2}+2x+5 \\text{ là số thực}$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Phủ định của $\\exists x \\in \\mathbb{N}$ là $\\forall x \\in \\mathbb{N}$, và phủ định của \"là số nguyên tố\" là \"không là số nguyên tố\"."
+  },
+  {
+    "content": "Cho mệnh đề $P: \"\\forall x\\in\\mathbb{R}: x^{2}<x\"$. Trong các mệnh đề sau, mệnh đề nào là phủ định của mệnh đề $P$?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "NB",
+    "tags": ["Mệnh đề phủ định"],
+    "answers": [
+      {
+        "content": "\"$\\exists x\\in\\mathbb{R}: x^{2}<x$\".",
+        "isCorrect": false
+      },
+      {
+        "content": "\"$\\exists x\\in\\mathbb{R}: x^{2}\\ge x$\".",
+        "isCorrect": true
+      },
+      {
+        "content": "\"$\\exists x\\in\\mathbb{R}: x^{2}<x$\".",
+        "isCorrect": false
+      },
+      {
+        "content": "\"$\\exists x\\in\\mathbb{R}: x^{2}\\le x$\".",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Phủ định của $\\forall x \\in \\mathbb{R}$ là $\\exists x \\in \\mathbb{R}$, và phủ định của $x^2 < x$ là $x^2 \\ge x$."
+  },
+  {
+    "content": "Trong các mệnh đề sau, mệnh đề nào là mệnh đề đúng?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề tương đương"],
+    "answers": [
+      {
+        "content": "Tổng của hai số tự nhiên là một số chẵn khi và chỉ khi cả hai số đều là số chẵn.",
+        "isCorrect": false
+      },
+      {
+        "content": "Tích của hai số tự nhiên là một số chẵn khi và chỉ khi cả hai số đều là số chẵn.",
+        "isCorrect": false
+      },
+      {
+        "content": "Tổng của hai số tự nhiên là một số lẻ khi và chỉ khi cả hai số đều là số lẻ.",
+        "isCorrect": false
+      },
+      {
+        "content": "Tích của hai số tự nhiên là một số lẻ khi và chỉ khi cả hai số đều là số lẻ.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Tích của hai số tự nhiên $a, b$ là một số lẻ $\\Leftrightarrow$ cả $a$ và $b$ đều là số lẻ."
+  },
+  {
+    "content": "Xét tính đúng/sai của các mệnh đề sau:",
+    "type": "TRUE_FALSE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề"],
+    "answers": [
+      {
+        "content": "Nếu $IA=IB$ thì $I$ là trung điểm của $AB$.",
+        "isCorrect": false
+      },
+      {
+        "content": "Nếu $a$ chia hết cho 9 thì $a$ chia hết cho 3.",
+        "isCorrect": true
+      },
+      {
+        "content": "Nếu $|x|>2$ thì $x>2$.",
+        "isCorrect": false
+      },
+      {
+        "content": "Nếu $m, n$ là 2 số nguyên dương và $m^{2}+n^{2}$ chia hết cho 3 thì $m, n$ cùng chia hết cho 3.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "a) Sai vì $I$ có thể nằm ngoài đường thẳng $AB$ (tam giác cân $IAB$).\nb) Đúng vì $a = 9k \\Rightarrow a = 3(3k) \\vdots 3$.\nc) Sai vì $|x| > 2 \\Leftrightarrow x > 2$ hoặc $x < -2$ (ví dụ $x = -3$).\nd) Đúng vì một số chính phương chia 3 chỉ dư 0 hoặc 1. Nếu $m^2 + n^2 \\vdots 3$ thì cả $m^2$ và $n^2$ phải chia hết cho 3, nên $m, n \\vdots 3$."
+  },
+  {
+    "content": "Xét tính đúng/sai của các mệnh đề sau:",
+    "type": "TRUE_FALSE",
+    "difficulty": "VD",
+    "tags": ["Mệnh đề chứa ký hiệu với mọi, tồn tại"],
+    "answers": [
+      {
+        "content": "$\\exists r\\in\\mathbb{Q}, 4r^{2}-1=0$.",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\forall n\\in\\mathbb{N}^*, 1+2+3+...+n$ không chia hết cho 11.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\exists n\\in\\mathbb{Z}, n^{2}+n+1$ là một số chẵn.",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\forall x\\in\\mathbb{Z}, \\frac{2x^{3}-6x^{2}+x-3}{2x^{2}+1}\\in\\mathbb{Z}.$",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "a) Đúng vì $4r^2 - 1 = 0 \\Leftrightarrow r = \\pm \\frac{1}{2} \\in \\mathbb{Q}$.\nb) Sai vì với $n=11$, tổng bằng $\\frac{11 \\cdot 12}{2} = 66 \\vdots 11$.\nc) Sai vì $n^2 + n + 1 = n(n+1) + 1$. Do $n(n+1)$ là tích 2 số nguyên liên tiếp (luôn chẵn) nên $n^2+n+1$ luôn lẻ với mọi $n \\in \\mathbb{Z}$.\nd) Đúng vì $\\frac{2x^3 - 6x^2 + x - 3}{2x^2 + 1} = \\frac{2x^2(x - 3) + (x - 3)}{2x^2 + 1} = x - 3 \\in \\mathbb{Z}$ với mọi $x \\in \\mathbb{Z}$."
+  },
+  {
+    "content": "Xét tính đúng/sai của các mệnh đề sau:",
+    "type": "TRUE_FALSE",
+    "difficulty": "TH",
+    "tags": ["Mệnh đề"],
+    "answers": [
+      {
+        "content": "$\\pi < \\frac{10}{3}$",
+        "isCorrect": true
+      },
+      {
+        "content": "Phương trình $3x+7=0$ có nghiệm thực.",
+        "isCorrect": true
+      },
+      {
+        "content": "Không có số nào cộng với chính nó bằng 0.",
+        "isCorrect": false
+      },
+      {
+        "content": "2022 là hợp số.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "a) Đúng vì $\\pi \\approx 3.14159 < 3.3333... = \\frac{10}{3}$.\nb) Đúng vì phương trình có nghiệm thực $x = -\\frac{7}{3}$.\nc) Sai vì số $0 + 0 = 0$.\nd) Đúng vì 2022 chia hết cho 2 và 3 nên là hợp số."
+  },
+  {
+    "content": "Xét tính đúng/sai của các mệnh đề sau:",
+    "type": "TRUE_FALSE",
+    "difficulty": "TH",
+    "tags": ["Số học", "Phương trình"],
+    "answers": [
+      {
+        "content": "$\\sqrt{3}+\\sqrt{2}=\\frac{1}{\\sqrt{3}-\\sqrt{2}}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$(\\sqrt{2}-\\sqrt{18})^{2}>8.$",
+        "isCorrect": false
+      },
+      {
+        "content": "$(\\sqrt{3}+\\sqrt{12})^{2}$ là một số hữu tỷ.",
+        "isCorrect": true
+      },
+      {
+        "content": "$x=2$ là một nghiệm của phương trình $\\frac{x^{2}-4}{x-2}=0$.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "a) Đúng vì $\\frac{1}{\\sqrt{3}-\\sqrt{2}} = \\frac{\\sqrt{3}+\\sqrt{2}}{(\\sqrt{3}-\\sqrt{2})(\\sqrt{3}+\\sqrt{2})} = \\sqrt{3}+\\sqrt{2}$.\nb) Sai vì $(\\sqrt{2}-3\\sqrt{2})^2 = (-2\\sqrt{2})^2 = 8$, không lớn hơn $8$.\nc) Đúng vì $(\\sqrt{3}+2\\sqrt{3})^2 = (3\\sqrt{3})^2 = 27 \\in \\mathbb{Q}$.\nd) Sai vì điều kiện xác định của phương trình là $x \\ne 2$, nên $x = 2$ làm mẫu số bằng 0."
+  }
+]
