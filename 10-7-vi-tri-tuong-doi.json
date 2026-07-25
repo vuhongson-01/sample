@@ -1,0 +1,577 @@
+[
+  {
+    "content": "Trong mặt phẳng Oxy, cho đường thẳng $d:2x-3y+1=0$. Một vectơ pháp tuyến của đường thẳng d là:",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$\\vec{n}=(2;-3)$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\vec{n}=(3;2)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\vec{n}=(3;-2)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$n=(2;3)$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng với hệ toạ độ Oxy, một vectơ chỉ phương của đường thẳng $d:\\begin{cases}x=1-2t\\\\ y=2+3t\\end{cases}$ là",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$a=(2;3)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\vec{b}=(3;2)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\vec{c}=(3;-2)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\vec{d}=(2;-3)$",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy, cho đường thẳng (d) có phương trình $2x-y+5=0$. Tìm một vectơ chỉ phương của (d)",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "(1;-2)",
+        "isCorrect": false
+      },
+      {
+        "content": "(2;1)",
+        "isCorrect": false
+      },
+      {
+        "content": "(2;-1)",
+        "isCorrect": false
+      },
+      {
+        "content": "(1;2)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy, cho đường thẳng $d:3x-7y-1=0$. Vectơ nào sau đây là vectơ pháp tuyến của đường thẳng d",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$\\vec{n}=(3;-7)$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\vec{n}=(2;3)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\vec{n}=(3;7)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\vec{n}=(7;3)$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy, cho đường thẳng $d:y=-3x+5$. Một vectơ pháp tuyến của đường thẳng d là",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$\\vec{n}=(1;3)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\vec{n}=(3;1)$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\vec{n}=(-3;1)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\vec{n}=(1;-3)$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng tọa độ, cho hai điểm $A(3;0)$, $B(0;2)$ và đường thẳng $d:x+y=0$. Lập phương trình tham số của đường thẳng $\\Delta$ qua A và song song với d.",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$\\begin{cases}x=t\\\\ y=3-t\\end{cases}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\begin{cases}x=t\\\\ y=3+t\\end{cases}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\begin{cases}x=-t\\\\ y=3-t\\end{cases}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\begin{cases}x=-t\\\\ y=3+t\\end{cases}$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Cho đường thẳng d có phương trình tham số $\\begin{cases}x=5+t\\\\ y=-9-2t\\end{cases}$. Phương trình tổng quát của đường thẳng d là",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$2x+y-1=0$",
+        "isCorrect": true
+      },
+      {
+        "content": "$-2x+y-1=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$x+2y+1=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$2x+3y-1=0$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy cho điểm $M(1;2)$. Gọi A,B là hình chiếu của M lên Ox, Oy. Viết phương trình đường thẳng AB .",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$x+2y-1=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$2x+y+2=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$2x+y-2=0$",
+        "isCorrect": true
+      },
+      {
+        "content": "$x+y-3=0$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng tọa độ Oxy, cho đường thẳng $d:\\begin{cases}x=3-5t\\\\ y=1+4t\\end{cases}(t\\in\\mathbb{R})$. Phương trình tổng quát của đường thẳng d là",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$4x-5y-7=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$4x+5y-17=0$",
+        "isCorrect": true
+      },
+      {
+        "content": "$4x-5y-17=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$4x+5y+17=0$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Xác định vị trí tương đối của 2 đường thẳng sau $\\Delta_{1}:x-2y+1=0$ và $\\Delta_{2}:-3x+6y-1=0$.",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "Song song.",
+        "isCorrect": true
+      },
+      {
+        "content": "Trùng nhau.",
+        "isCorrect": false
+      },
+      {
+        "content": "Vuông góc nhau.",
+        "isCorrect": false
+      },
+      {
+        "content": "Cắt nhau.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Đường thẳng $\\Delta:3x-2y-7=0$ cắt đường thẳng nào sau đây?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$d_{1}:3x+2y=0$",
+        "isCorrect": true
+      },
+      {
+        "content": "$d_{2}:3x-2y=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$d_{3}:-3x+2y-7=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$d_{4}:6x-4y-14=0$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Hai đường thẳng $d_{1}:4x+3y-18=0;d_{2}:3x+5y-19=0$ cắt nhau tại điểm có toạ độ:",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "(3;2)",
+        "isCorrect": true
+      },
+      {
+        "content": "(-3;2)",
+        "isCorrect": false
+      },
+      {
+        "content": "(3;-2)",
+        "isCorrect": false
+      },
+      {
+        "content": "(3;-2)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Phương trình nào sau đây biểu diễn đường thẳng không song song với đường thẳng $d:y=2x-1$?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$2x-y+5=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$2x-y-5=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$-2x+y=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$2x+y-5=0$",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "content": "Xác định vị trí tương đối của 2 đường thẳng: $\\Delta_{1}:\\begin{cases}x=3+\\sqrt{2}t\\\\ y=1-\\sqrt{3}t\\end{cases}$ và $\\Delta_{2}:\\begin{cases}x=2+\\sqrt{3}t'\\\\ y=1-\\sqrt{2}t'\\end{cases}$",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "Song song nhau.",
+        "isCorrect": false
+      },
+      {
+        "content": "Cắt nhau nhưng không vuông góc.",
+        "isCorrect": true
+      },
+      {
+        "content": "Vuông góc nhau.",
+        "isCorrect": false
+      },
+      {
+        "content": "Trùng nhau.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Cho 4 điểm $A(0;-2)$, $B(-1;0)$, $C(0;-4)$, $D(-2;0)$. Tìm tọa độ giao điểm của 2 đường thẳng AB và CD?",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$(1;-4)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$(\\frac{-3}{2};\\frac{1}{2})$",
+        "isCorrect": false
+      },
+      {
+        "content": "(-2;2)",
+        "isCorrect": false
+      },
+      {
+        "content": "Không có giao điểm.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy, góc giữa hai đường thẳng $\\Delta_{1}:\\begin{cases}x=2+3t\\\\ y=4-2t\\end{cases}$ và $\\Delta_{2}:\\begin{cases}x=-3+2t\\\\ y=1+3t\\end{cases}$ bằng",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$90^{\\circ}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$45^{\\circ}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$60^{\\circ}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$30^{\\circ}$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy, cosin góc giữa hai đường thẳng $\\Delta_{1}:3x+4y+1=0$ và $\\Delta_{2}:\\begin{cases}x=15+12t\\\\ y=1+5t\\end{cases}$ bằng",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$-\\frac{56}{65}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$-\\frac{33}{65}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{56}{65}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{33}{65}$",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy, gọi S là tập hợp tất cả các giá trị của tham số m để góc giữa hai đường thẳng $d:mx+(m-1)y+2=0$ và $\\Delta:x-y+2=0$ bằng $30^{\\circ}$. Tích tất cả các phần tử của tập S bằng",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "1",
+        "isCorrect": false
+      },
+      {
+        "content": "$-\\frac{1}{6}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{1}{6}$",
+        "isCorrect": true
+      },
+      {
+        "content": "-1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy phương trình đường thẳng $\\Delta$ đi qua $M(1;0)$ và tạo với trục hoành góc $30^{\\circ}$ là",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$\\Delta_{1}:2x+\\sqrt{3}y-2=0;\\Delta_{2}:2x-\\sqrt{3}y-2=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\Delta_{1}:\\sqrt{3}x+y-\\sqrt{3}=0;\\Delta_{2}:\\sqrt{3}x-y-\\sqrt{3}=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\Delta_{1}:x+\\sqrt{3}y-1=0;\\Delta_{2}:x-\\sqrt{3}y-1=0$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\Delta_{1}:3x+\\sqrt{3}y-3=0;\\Delta_{2}:3x-\\sqrt{3}y-3=0$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng tọa độ Oxy, cho điểm $A(1;5)$ và đường thẳng $d:x+2y-5=0$. Viết phương trình đường thẳng $\\Delta$ qua A tạo với d một góc $45^{\\circ}$",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$x+y-6=0; 2x+y-7=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$x+3y-16=0; x-3y+14=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$3x+2y-13=0;3x-2y+7=0$",
+        "isCorrect": false
+      },
+      {
+        "content": "$3x+y-8=0; x-3y+14=0$",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy, cho điểm $M(-2;1)$ và đường thẳng $\\Delta:x-3y+6=0$. Khoảng cách từ điểm M đến đường thẳng $\\Delta$ bằng",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "$\\frac{\\sqrt{10}}{10}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$2\\sqrt{10}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{\\sqrt{10}}{5}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{2}{\\sqrt{10}}$",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy, cho đường thẳng $\\Delta:4x-3y-2=0$. Điểm M thuộc Oy có tung độ dương và cách $\\Delta$ bằng $\\frac{8}{5}$. Tung độ của điểm M bằng",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "4",
+        "isCorrect": false
+      },
+      {
+        "content": "1",
+        "isCorrect": false
+      },
+      {
+        "content": "3",
+        "isCorrect": false
+      },
+      {
+        "content": "2",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "content": "Trong mặt phẳng Oxy, cho hai điểm $A(3;-1)$, $B(0;3)$. Tọa độ điểm M thuộc trục Ox sao cho khoảng cách từ điểm M tới đường thẳng AB bằng 1 là",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "full",
+    "tags": [],
+    "explanations": "",
+    "answers": [
+      {
+        "content": "(1;0) và $(\\frac{7}{2};0)$",
+        "isCorrect": true
+      },
+      {
+        "content": "$(\\sqrt{13};0)$",
+        "isCorrect": false
+      },
+      {
+        "content": "(4;0)",
+        "isCorrect": false
+      },
+      {
+        "content": "(2;0)",
+        "isCorrect": false
+      }
+    ]
+  }
+]
