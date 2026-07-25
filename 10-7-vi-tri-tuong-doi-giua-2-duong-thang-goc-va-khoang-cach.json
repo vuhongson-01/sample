@@ -1,0 +1,186 @@
+[
+  {
+    "content": "Cho hai đường thẳng $d_1:a_1x+b_1y+c_1=0$ và $d_2:a_2x+b_2y+c_2=0$, với $a_2.b_2.c_2 \\neq 0$. Hai đường thẳng $d_1$ và $d_2$ trùng nhau khi",
+    "type": "MULTIPLE_CHOICE",
+    "answers": [
+      {
+        "content": "$\\frac{a_1}{a_2}=\\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{a_1}{a_2}=\\frac{b_1}{b_2}=\\frac{c_1}{c_2}$",
+        "isCorrect": true
+      },
+      {
+        "content": "$\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{a_1}{a_2}=\\frac{b_2}{b_1}=\\frac{c_1}{c_2}$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hai đường thẳng $d_1$ và $d_2$ trùng nhau khi $\\frac{a_1}{a_2}=\\frac{b_1}{b_2}=\\frac{c_1}{c_2}$ với $a_2.b_2.c_2 \\neq 0$."
+  },
+  {
+    "content": "Xét vị trí tương đối của hai đường thẳng $d_1:x+y-4=0$ và $d_2:-2x-2y+6=0$.",
+    "type": "MULTIPLE_CHOICE",
+    "answers": [
+      {
+        "content": "Trùng nhau.",
+        "isCorrect": false
+      },
+      {
+        "content": "Song song.",
+        "isCorrect": true
+      },
+      {
+        "content": "Vuông góc.",
+        "isCorrect": false
+      },
+      {
+        "content": "Cắt nhau nhưng không vuông góc.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có $\\frac{1}{-2}=\\frac{1}{-2} \\neq \\frac{-4}{6}$ nên $d_1 \\parallel d_2$."
+  },
+  {
+    "content": "Xét vị trí tương đối của hai đường thẳng $d_1:x-4=0$ và $d_2:2x+y+6=0$.",
+    "type": "MULTIPLE_CHOICE",
+    "answers": [
+      {
+        "content": "Trùng nhau.",
+        "isCorrect": false
+      },
+      {
+        "content": "Song song.",
+        "isCorrect": false
+      },
+      {
+        "content": "Vuông góc.",
+        "isCorrect": false
+      },
+      {
+        "content": "Cắt nhau nhưng không vuông góc.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Ta có $d_1:x-4=0$ có vectơ pháp tuyến $\\vec{n}_1=(1;0)$, $d_2:2x+y+6=0$ có vectơ pháp tuyến $\\vec{n}_2=(2;1)$.\nSuy ra $\\begin{cases}\\frac{1}{2} \\neq \\frac{0}{1}\\\\ \\vec{n}_1.\\vec{n}_2=1.2+0.1=2 \\neq 0\\end{cases}$ nên $d_1$ và $d_2$ cắt nhau nhưng không vuông góc."
+  },
+  {
+    "content": "Xét vị trí tương đối của hai đường thẳng $d_1:x+5=0$ và $d_2:y-7=0$.",
+    "type": "MULTIPLE_CHOICE",
+    "answers": [
+      {
+        "content": "Trùng nhau.",
+        "isCorrect": false
+      },
+      {
+        "content": "Song song.",
+        "isCorrect": false
+      },
+      {
+        "content": "Vuông góc.",
+        "isCorrect": true
+      },
+      {
+        "content": "Cắt nhau nhưng không vuông góc.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ta có $d_1:x+5=0$ có vectơ pháp tuyến $\\vec{n}_1=(1;0)$, $d_2:y-7=0$ có vectơ pháp tuyến $\\vec{n}_2=(0;1)$.\nSuy ra $\\vec{n}_1.\\vec{n}_2=1.0+0.1=0$ nên $d_1$ và $d_2$ vuông góc nhau."
+  },
+  {
+    "content": "Trong mặt phẳng $Oxy$, góc giữa hai đường thẳng $\\Delta_1:\\begin{cases}x=2+3t\\\\ y=4-2t\\end{cases}$ và $\\Delta_2:\\begin{cases}x=-3+2t\\\\ y=1+3t\\end{cases}$ bằng",
+    "type": "MULTIPLE_CHOICE",
+    "answers": [
+      {
+        "content": "$90^\\circ$",
+        "isCorrect": true
+      },
+      {
+        "content": "$45^\\circ$",
+        "isCorrect": false
+      },
+      {
+        "content": "$60^\\circ$",
+        "isCorrect": false
+      },
+      {
+        "content": "$30^\\circ$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hai đường thẳng $\\Delta_1$, $\\Delta_2$ lần lượt có vectơ chỉ phương $\\vec{u}_1=(3;-2)$ và $\\vec{u}_2=(2;3)$.\nVì $\\vec{u}_1.\\vec{u}_2=0$ nên $\\Delta_1 \\perp \\Delta_2$. Suy ra $(\\Delta_1,\\Delta_2)=90^\\circ$."
+  },
+  {
+    "content": "Trong mặt phẳng $Oxy$, cosin góc giữa hai đường thẳng $\\Delta_1:3x+4y+1=0$ và $\\Delta_2:\\begin{cases}x=15+12t\\\\ y=1+5t\\end{cases}$ bằng",
+    "type": "MULTIPLE_CHOICE",
+    "answers": [
+      {
+        "content": "$-\\frac{56}{65}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$-\\frac{33}{65}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{56}{65}$",
+        "isCorrect": false
+      },
+      {
+        "content": "$\\frac{33}{65}$",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Vectơ pháp tuyến của đường thẳng $\\Delta_1$ là $\\vec{n}_1=(3;4)$.\nVectơ pháp tuyến của đường thẳng $\\Delta_2$ là $\\vec{n}_2=(5;-12)$.\n$\\Rightarrow \\cos(\\Delta_1,\\Delta_2)=|\\cos(\\vec{n}_1,\\vec{n}_2)|=\\frac{|\\vec{n}_1.\\vec{n}_2|}{|\\vec{n}_1|.|\\vec{n}_2|}=\\frac{33}{65}$."
+  },
+  {
+    "content": "Trong mặt phẳng $Oxy$, cho đường thẳng $\\Delta:4x-3y-2=0$. Điểm $M$ thuộc $Oy$ có tung độ dương và cách $\\Delta$ một khoảng bằng $\\frac{8}{5}$. Tung độ của điểm $M$ bằng",
+    "type": "MULTIPLE_CHOICE",
+    "answers": [
+      {
+        "content": "4",
+        "isCorrect": false
+      },
+      {
+        "content": "1",
+        "isCorrect": false
+      },
+      {
+        "content": "3",
+        "isCorrect": false
+      },
+      {
+        "content": "2",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Ta có $M \\in Oy$ và có tung độ dương nên tọa độ có dạng $M(0;m) (m>0)$.\nTheo giả thiết $d(M,\\Delta)=\\frac{8}{5} \\Leftrightarrow \\frac{|-3m-2|}{\\sqrt{4^2+3^2}}=\\frac{8}{5} \\Leftrightarrow \\begin{bmatrix}3m+2=8\\\\ 3m+2=-8\\end{bmatrix} \\Leftrightarrow \\begin{bmatrix}m=2\\text{ (thỏa mãn)}\\\\ m=-\\frac{10}{3}\\text{ (loại)}\\end{bmatrix}$.\nVậy tung độ của điểm $M$ thỏa mãn yêu cầu đề bài bằng 2."
+  },
+  {
+    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $A(3;-1)$, $B(0;3)$. Tọa độ điểm $M$ thuộc trục $Ox$ sao cho khoảng cách từ điểm $M$ tới đường thẳng $AB$ bằng 1 là",
+    "type": "MULTIPLE_CHOICE",
+    "answers": [
+      {
+        "content": "$(1;0)$ và $(\\frac{7}{2};0)$",
+        "isCorrect": true
+      },
+      {
+        "content": "$(\\sqrt{13};0)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$(4;0)$",
+        "isCorrect": false
+      },
+      {
+        "content": "$(2;0)$",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Đường thẳng $AB$ có một vectơ chỉ phương là $\\vec{AB}=(-3;4)$.\nSuy ra đường thẳng có một vectơ pháp tuyến là $\\vec{n}=(4;3)$.\nPhương trình đường thẳng $AB:4(x-3)+3(y+1)=0 \\Leftrightarrow 4x+3y-9=0$.\nDo $M \\in Ox \\Rightarrow M(x;0)$.\nKhoảng cách: $d(M,AB)=1 \\Leftrightarrow \\frac{|4x-9|}{\\sqrt{4^2+3^2}}=1 \\Leftrightarrow \\begin{bmatrix}4x-9=5\\\\ 4x-9=-5\\end{bmatrix} \\Leftrightarrow \\begin{bmatrix}x=\\frac{7}{2} \\Rightarrow M(\\frac{7}{2};0)\\\\ x=1 \\Rightarrow M(1;0)\\end{bmatrix}$."
+  }
+]
